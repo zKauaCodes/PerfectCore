@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PerfectCore:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de7cf2fd-d41b-4c10-b761-42903ef047e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PerfectCore" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PerfectCore" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="PerfectCore.main/invalid/Minecraft" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1X8svm5YeLBcpzkEECgVQz8Kzn3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server/Rankup/plugins" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="eu.perfect.core.manager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/database/table" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.PerfectCore [jar]">
+    <configuration name="PerfectCore [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PerfectCore [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PerfectCore [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PerfectCore [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PerfectCore [buildDependents]" />
+        <item itemvalue="Gradle.PerfectCore [clean]" />
+        <item itemvalue="Gradle.PerfectCore [build]" />
+        <item itemvalue="Gradle.PerfectCore [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de7cf2fd-d41b-4c10-b761-42903ef047e0" name="Default Changelist" comment="" />
+      <created>1580439288733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580439288733</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="274" y="63" width="802" height="674" key="#Project_Structure" timestamp="1581465530111">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="274" y="63" width="802" height="674" key="#Project_Structure/0.39.1360.729@0.39.1360.729" timestamp="1581465530111" />
+    <state x="422" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1580581345090">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="422" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1580581345090" />
+    <state x="407" y="157" width="526" height="481" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1581462142929">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="407" y="157" width="526" height="481" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.39.1360.729@0.39.1360.729" timestamp="1581462142929" />
+    <state x="446" y="144" width="426" height="508" key="FileChooserDialogImpl" timestamp="1581465527597">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="420" y="99" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1580479491025" />
+    <state x="446" y="144" width="426" height="508" key="FileChooserDialogImpl/0.39.1360.729@0.39.1360.729" timestamp="1581465527597" />
+    <state width="1316" height="172" key="GridCell.Tab.0.bottom" timestamp="1581463830199">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state width="1316" height="172" key="GridCell.Tab.0.bottom/0.39.1360.729@0.39.1360.729" timestamp="1581463830199" />
+    <state width="1316" height="172" key="GridCell.Tab.0.center" timestamp="1581463830198">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state width="1316" height="172" key="GridCell.Tab.0.center/0.39.1360.729@0.39.1360.729" timestamp="1581463830198" />
+    <state width="1316" height="172" key="GridCell.Tab.0.left" timestamp="1581463830197">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state width="1316" height="172" key="GridCell.Tab.0.left/0.39.1360.729@0.39.1360.729" timestamp="1581463830197" />
+    <state width="1316" height="172" key="GridCell.Tab.0.right" timestamp="1581463830198">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state width="1316" height="172" key="GridCell.Tab.0.right/0.39.1360.729@0.39.1360.729" timestamp="1581463830198" />
+    <state x="184" y="39" key="SettingsEditor" timestamp="1581128699865">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="184" y="39" key="SettingsEditor/0.39.1360.729@0.39.1360.729" timestamp="1581128699865" />
+    <state x="363" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1580946112277">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="363" y="230" key="com.intellij.ide.util.TipDialog/0.39.1360.729@0.39.1360.729" timestamp="1580946112277" />
+    <state x="343" y="51" width="664" height="697" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581827171277">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="343" y="51" width="664" height="697" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.39.1360.729@0.39.1360.729" timestamp="1581827171277" />
+    <state x="322" y="51" width="714" height="717" key="search.everywhere.popup" timestamp="1581128534289">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="303" y="11" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1580440034705" />
+    <state x="322" y="51" width="714" height="717" key="search.everywhere.popup/0.39.1360.729@0.39.1360.729" timestamp="1581128534289" />
+  </component>
+</project>
