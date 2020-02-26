@@ -1,13 +1,15 @@
-package eu.perfect.core.utils
+package eu.perfect.core.utils.extensions
 
 import com.okkero.skedule.BukkitDispatcher
 import com.okkero.skedule.BukkitSchedulerController
 import com.okkero.skedule.SynchronizationContext
 import com.okkero.skedule.schedule
+import eu.perfect.core.utils.Millisecond
+import eu.perfect.core.utils.getTakeValuesOrNull
+import eu.perfect.core.utils.registerCoroutineContextTakes
+import eu.perfect.core.utils.unregisterCoroutineContextTakes
 import org.bukkit.plugin.Plugin
 import org.bukkit.plugin.java.JavaPlugin
-import java.util.concurrent.ConcurrentHashMap
-import kotlin.coroutines.CoroutineContext
 
 fun WithPlugin<*>.schedule(
     initialContext: SynchronizationContext = SynchronizationContext.SYNC,
@@ -21,7 +23,11 @@ suspend fun BukkitSchedulerController.switchToSync() = switchContext(contextSync
 suspend fun BukkitSchedulerController.switchToAsync() = switchContext(contextAsync)
 
 val WithPlugin<*>.BukkitDispatchers get() = JavaPlugin.getProvidingPlugin(plugin::class.java).BukkitDispatchers
-val Plugin.BukkitDispatchers get() = PluginDispatcher(JavaPlugin.getProvidingPlugin(this::class.java))
+val Plugin.BukkitDispatchers get() = PluginDispatcher(
+    JavaPlugin.getProvidingPlugin(
+        this::class.java
+    )
+)
 
 inline class PluginDispatcher(val plugin: JavaPlugin) {
     val ASYNC get() = BukkitDispatcher(plugin, true)
@@ -43,29 +49,4 @@ suspend fun BukkitSchedulerController.takeMaxPerTick(time: Millisecond) {
             waitFor(1)
         }
     }
-}
-
-internal val coroutineContextTakes = ConcurrentHashMap<CoroutineContext, TakeValues>()
-internal data class TakeValues(val startTimeMilliseconds: Long, val takeTimeMillisecond: Long) {
-    fun wasTimeExceeded() = System.currentTimeMillis() - startTimeMilliseconds - takeTimeMillisecond >= 0
-}
-
-internal fun getTakeValuesOrNull(
-    coroutineContext: CoroutineContext
-): TakeValues? = coroutineContextTakes[coroutineContext]
-
-internal fun registerCoroutineContextTakes(
-    coroutineContext: CoroutineContext,
-    time: Millisecond
-) {
-    coroutineContextTakes.put(
-        coroutineContext,
-        TakeValues(System.currentTimeMillis(), time.toMillisecond())
-    )
-}
-
-internal fun unregisterCoroutineContextTakes(
-    coroutineContext: CoroutineContext
-) {
-    coroutineContextTakes.remove(coroutineContext)
 }

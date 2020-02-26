@@ -6,6 +6,5 @@ data class CommandSettings(
     var description: String? = null,
     var usage: String? = null,
     var permission: String? = null,
-    var permissionMessage: String? = null,
     var notExecutorTypeMessage: String? = null
 )

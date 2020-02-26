@@ -27,7 +27,6 @@ val exposed_version = "0.21.1"
 val hikari_version = "3.4.2"
 val mongo_version = "3.11.0"
 val redis_version = "3.0.1"
-val skedule_version = "1.2.6"
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
@@ -41,7 +40,8 @@ dependencies {
     compile("org.mongodb:mongodb-driver:$mongo_version")
     compile("redis.clients:jedis:$redis_version")
 
-    compile("com.okkero.skedule:skedule:$skedule_version")
+    compile("com.okkero.skedule:skedule:1.2.6")
+
 }
 
 tasks {

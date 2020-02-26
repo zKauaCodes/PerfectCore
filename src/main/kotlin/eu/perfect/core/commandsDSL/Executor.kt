@@ -1,5 +1,6 @@
 package eu.perfect.core.commandsDSL
 
+import eu.perfect.core.PerfectCore
 import org.bukkit.command.CommandSender
 import java.lang.Double.parseDouble
 import java.lang.Integer.parseInt
@@ -14,7 +15,10 @@ data class Executor<T: CommandSender>(
 
     inline fun permission(
         permission: String
-    ): Boolean? = if(sender.hasPermission(permission)) true else null // TODO fazer a verificação com o sistema de grupo
+    ): Boolean? {
+        val user = PerfectCore.instance.userManager.findByName(sender.name)
+        return PerfectCore.instance.permissionManager.verifyPermission(user, permission)
+    }
 
     //not 0-based
     inline fun string(index: Int): String? = if(args.size < index) null else

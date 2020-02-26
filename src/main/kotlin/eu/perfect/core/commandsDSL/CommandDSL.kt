@@ -2,7 +2,6 @@ package eu.perfect.core.commandsDSL
 
 import eu.perfect.core.PerfectCore
 import eu.perfect.core.utils.BukkitReflection
-import eu.perfect.core.utils.WithPlugin
 import org.bukkit.Bukkit
 import org.bukkit.Server
 import org.bukkit.command.CommandSender
@@ -17,9 +16,8 @@ inline fun Plugin.settings(
     description: String? = null,
     usage: String? = null,
     permission: String? = null,
-    permissionMessage: String? = null,
     invalidTypeMessage: String? = null
-) = CommandSettings(name, aliases, description, usage, permission, permissionMessage, invalidTypeMessage)
+) = CommandSettings(name, aliases, description, usage, permission, invalidTypeMessage)
 
 inline fun <reified T : CommandSender> Plugin.command(
     commandSettings: CommandSettings,
@@ -46,11 +44,9 @@ inline fun <reified T : CommandSender> Plugin.command(
                 return false
             }
             commandSettings.permission?.let {
-                // TODO verificar a permissão pelo sistema proprio
-                if (!p0.hasPermission(it)) {
-                    p0.sendMessage(commandSettings.permissionMessage)
+                val user = PerfectCore.instance.userManager.findByName(p0.name)
+                PerfectCore.instance.permissionManager.verifyPermission(user, it)
                     return false
-                }
             }
             val executor = Executor<T>(
                 p0 as T,
@@ -63,7 +59,7 @@ inline fun <reified T : CommandSender> Plugin.command(
 
     }
     map.register(commandSettings.name, command)
-    // TODO adicionar as mensagem comando Staff registrado para a classe StaffCommand
+    Bukkit.getConsoleSender().sendMessage("§bCommand -> §f${commandSettings.name} §bregistrado com sucesso")
     return commandSettings
 }
 

@@ -6,7 +6,54 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7cf2fd-d41b-4c10-b761-42903ef047e0" name="Default Changelist" comment="" />
+    <list default="true" id="de7cf2fd-d41b-4c10-b761-42903ef047e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PerfectCore_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/PerfectCore_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/META-INF/PerfectCore.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/META-INF/PerfectCore.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/PerfectCore$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/PerfectCore$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/PerfectCore$loadAllPermission$perms$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/PerfectCore$onEnable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/PerfectCore$onEnable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/PerfectCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/PerfectCore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$command$$inlined$command$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$command$$inlined$command$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$command$$inlined$command$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$command$$inlined$command$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$command$command$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$command$command$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$compareTo$$inlined$command$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$compareTo$$inlined$command$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$plus$$inlined$command$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$plus$$inlined$command$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$rem$$inlined$command$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt$rem$$inlined$command$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandDSLKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/CommandSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/commandsDSL/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO$Companion$findByName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO$Companion$findByName$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO$Companion$newGroup$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO$Companion$newGroup$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/GroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/PermissionGroupDAO$Companion$newPermissionGroup$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/PermissionGroupDAO$Companion$newPermissionGroup$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/PermissionGroupDAO$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/PermissionGroupDAO$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/PermissionGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/PermissionGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion$findByName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion$findByName$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion$findGroupById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion$findGroupById$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion$newUserGroup$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion$newUserGroup$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/database/table/UserGroupDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/models/GroupModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/models/GroupModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/models/PermissionGroupModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/models/PermissionGroupModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/models/UserGroupModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/eu/perfect/core/models/UserGroupModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/PerfectCore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/PerfectCore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/commandsDSL/CommandDSL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/commandsDSL/CommandDSL.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/commandsDSL/CommandSettings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/commandsDSL/CommandSettings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/commandsDSL/Executor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/commandsDSL/Executor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/database/table/DAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/database/table/DAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/manager/GroupManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/manager/GroupManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/manager/PermissionGroupManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/manager/PermissionGroupManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/manager/UserGroupManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/manager/UserGroupManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/utils/ExPlugin.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/utils/ExSkedule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/utils/ExTime.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,12 +92,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -58,6 +108,9 @@
     </ignored-facets>
   </component>
   <component name="ProjectId" id="1X8svm5YeLBcpzkEECgVQz8Kzn3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -65,6 +118,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../server/Rankup/plugins" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -72,11 +126,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/utils/extensions" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/utils/collections" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/menu/events" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/utils" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/database/table" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="eu.perfect.core.manager" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/database/table" />
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="eu.perfect.core.menu.events" />
+      <recent name="eu.perfect.core.menu.slot" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/utils" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/controllers" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/menu/pagination" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/menu" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/eu/perfect/core/menu/slot" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.PerfectCore [jar]">
@@ -179,10 +248,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="63" width="802" height="674" key="#Project_Structure" timestamp="1581465530111">
+    <state x="274" y="63" width="802" height="674" key="#Project_Structure" timestamp="1582554729173">
       <screen x="0" y="39" width="1360" height="729" />
     </state>
-    <state x="274" y="63" width="802" height="674" key="#Project_Structure/0.39.1360.729@0.39.1360.729" timestamp="1581465530111" />
+    <state x="274" y="63" width="802" height="674" key="#Project_Structure/0.39.1360.729@0.39.1360.729" timestamp="1582554729173" />
     <state x="422" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1580581345090">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -191,11 +260,15 @@
       <screen x="0" y="39" width="1360" height="729" />
     </state>
     <state x="407" y="157" width="526" height="481" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.39.1360.729@0.39.1360.729" timestamp="1581462142929" />
-    <state x="446" y="144" width="426" height="508" key="FileChooserDialogImpl" timestamp="1581465527597">
+    <state x="461" y="39" width="438" height="689" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1582551295629">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="461" y="39" width="438" height="689" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.39.1360.729@0.39.1360.729" timestamp="1582551295629" />
+    <state x="446" y="144" width="426" height="508" key="FileChooserDialogImpl" timestamp="1582554725684">
       <screen x="0" y="39" width="1360" height="729" />
     </state>
     <state x="420" y="99" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1580479491025" />
-    <state x="446" y="144" width="426" height="508" key="FileChooserDialogImpl/0.39.1360.729@0.39.1360.729" timestamp="1581465527597" />
+    <state x="446" y="144" width="426" height="508" key="FileChooserDialogImpl/0.39.1360.729@0.39.1360.729" timestamp="1582554725684" />
     <state width="1316" height="172" key="GridCell.Tab.0.bottom" timestamp="1581463830199">
       <screen x="0" y="39" width="1360" height="729" />
     </state>
@@ -224,6 +297,10 @@
       <screen x="0" y="39" width="1360" height="729" />
     </state>
     <state x="343" y="51" width="664" height="697" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.39.1360.729@0.39.1360.729" timestamp="1581827171277" />
+    <state x="344" y="179" key="run.anything.popup" timestamp="1582553108791">
+      <screen x="0" y="39" width="1360" height="729" />
+    </state>
+    <state x="344" y="179" key="run.anything.popup/0.39.1360.729@0.39.1360.729" timestamp="1582553108791" />
     <state x="322" y="51" width="714" height="717" key="search.everywhere.popup" timestamp="1581128534289">
       <screen x="0" y="39" width="1360" height="729" />
     </state>

@@ -1,0 +1,15 @@
+.gradle/
+
+build/
+bin/
+dist/
+manifest.mf
+work/
+out/
+
+*.iml
+*.ipr
+*.iws
+*.idea/
+
+*~

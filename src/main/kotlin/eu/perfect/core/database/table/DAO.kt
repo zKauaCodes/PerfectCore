@@ -1,5 +1,6 @@
 package eu.perfect.core.database.table
 
+import eu.perfect.core.database.sql.SqlGlobal
 import eu.perfect.core.models.GroupModel
 import eu.perfect.core.models.PermissionGroupModel
 import eu.perfect.core.models.UserGroupModel
@@ -7,6 +8,7 @@ import org.bukkit.Material
 import org.jetbrains.exposed.dao.IntEntity
 import org.jetbrains.exposed.dao.IntEntityClass
 import org.jetbrains.exposed.dao.id.EntityID
+import org.jetbrains.exposed.sql.transactions.transaction
 
 class GroupDAO(id: EntityID<Int>) : IntEntity(id) {
     companion object : IntEntityClass<GroupDAO>(GroupTable) {
@@ -48,13 +50,18 @@ class GroupDAO(id: EntityID<Int>) : IntEntity(id) {
 
 class PermissionGroupDAO(id: EntityID<Int>) : IntEntity(id) {
     companion object : IntEntityClass<PermissionGroupDAO>(PermissionGroupTable) {
+        fun findByPermission(perm: String): PermissionGroupDAO? {
+            return find { PermissionGroupTable.permission eq perm }
+                .firstOrNull()
+        }
+
         fun newPermission(permission: String, groupModel: GroupModel): PermissionGroupModel? {
             return GroupDAO.findById(groupModel.id)?.let {
                 newPermissionGroup(permission, it)
             }
         }
 
-         fun newPermissionGroup(permission: String, group: GroupDAO): PermissionGroupModel {
+         private fun newPermissionGroup(permission: String, group: GroupDAO): PermissionGroupModel {
             return new {
                 this.permission = permission
                 this.group_id = group
@@ -78,7 +85,7 @@ class PermissionGroupDAO(id: EntityID<Int>) : IntEntity(id) {
 class UserGroupDAO(id: EntityID<Int>) : IntEntity(id) {
     companion object : IntEntityClass<UserGroupDAO>(UserGroupTable) {
 
-         fun findGroupById(id: Int): UserGroupModel? {
+        private fun findGroupById(id: Int): UserGroupModel? {
             return find { UserGroupTable.group_id eq id }
                 .firstOrNull()
                 ?.asUserGroup()
@@ -94,13 +101,28 @@ class UserGroupDAO(id: EntityID<Int>) : IntEntity(id) {
             return findGroupById(groupModel.id)
         }
 
-        fun  newUserGroup(name: String, groupModel: GroupModel): UserGroupModel? {
+        fun newUserGroup(name: String, groupModel: GroupModel): UserGroupModel? {
             return GroupDAO.findById(groupModel.id)?.let {
                 newUserGroup(name, it)
             }
         }
 
-         fun newUserGroup(
+        fun updateUserGroup(user: UserGroupModel, groupModel: GroupModel): UserGroupModel? {
+            return GroupDAO.findById(groupModel.id)?.let {
+                updateUserGroup(user, it)
+            }
+        }
+
+        private fun updateUserGroup(user: UserGroupModel, group: GroupDAO): UserGroupModel? {
+                return findById(user.id)?.apply {
+                    group_id = group
+                    permanent = user.permanent
+                    vip = user.vip
+                    time = user.time
+            }?.asUserGroup()
+        }
+
+         private fun newUserGroup(
             name: String,
             group: GroupDAO
         ): UserGroupModel {
